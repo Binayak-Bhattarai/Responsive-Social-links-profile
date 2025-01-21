@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F1F1F;
+    height: 420px;
+    width: 250px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__image {
+    height: 110px;
+    width: 110px;
+    background-image: url(avatar-jessica.jpeg);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(177, 246, 17);
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 15px;
+    color: rgb(224, 224, 219);
+    font-size: 13px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.btns {
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    background-color: aliceblue;
+    background-color: #484747;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 13px;
+    font-weight: 200px;
+}
+
+.btns:hover {
+    background-color: rgb(153, 202, 40);
+    ;
+}
+
+
+
+
+@media (max-width: 650px) {
+    .main {
+        height: 85%;
+        width: 80%;
+    }
+
+    .main__image {
+        height: 100px;
+        width: 100px;
+    }
+
+    h4 {
+        margin-top: 30px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .btns {
+        margin: 15px;
+        height: 45px;
+        width: 250px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
